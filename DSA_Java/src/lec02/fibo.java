@@ -13,7 +13,7 @@ public class fibo {
 			b=c ;
 			cnt++;
 		}
-		System.out.println(a);
+		System.out.println(c);
 	}
 
 }

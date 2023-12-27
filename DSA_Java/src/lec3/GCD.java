@@ -2,7 +2,7 @@ package lec3;
 
 public class GCD {
 public static void main(String[] args) {
-	int n1 =26;
+	int n1 =26 ;
 	int n2 = 74;
 	int divisor = n1 ;
 	int dividend = n2;

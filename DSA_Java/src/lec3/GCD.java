@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	int dividend = n2;
 	int rem = 0;
 	while(rem> 0) {
-		rem = dividend%divisor;
+		rem = dividend% divisor;
 		dividend = divisor;
 		divisor = rem;
 		

@@ -16,7 +16,7 @@ public static void main(String[] args) {
 				
 			}
 			int cnt_st=0;
-			while(cnt_str < tots_str) {
+			while(cnt_st < tots_st) {
 				System.out.print("*");
 				cnt_st++;
 				

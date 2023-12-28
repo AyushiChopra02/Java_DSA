@@ -5,7 +5,7 @@ public static void main(String[] args) {
 	int n = 5 ;
 	int row = 1;
 	int tots_st=1;
-		int tots_sp =n-1;
+		int tots_sp =n-1 ;
 			//step 1
 		while (row	<= n) {
 				//step 2 space prnt karo

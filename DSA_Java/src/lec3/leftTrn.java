@@ -9,7 +9,7 @@ public static void main(String[] args) {
 			//step 1
 		while (row	<= n) {
 				//step 2 space prnt karo
-			int cnt_sp=0;
+			int cnt_sp= 0;
 			while(cnt_sp < tots_sp) {
 				System.out.print(" ");
 				cnt_sp++;

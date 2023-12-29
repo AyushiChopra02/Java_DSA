@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	while(r <= 2 * n-1) {
 		int cnt_str = 0;
 		while(cnt_str < total_str) {
-			System.out.print("* ");
+			System.out.print("* ") ;
 			cnt_str++;
 		}
 		System.out.println();

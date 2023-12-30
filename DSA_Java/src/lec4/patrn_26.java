@@ -14,7 +14,7 @@ public class patrn_26 {
 		
 		while(r <= n) {
 			//step2
-			int cnt_sp=0;
+			int cnt_sp=0 ;
 			while(cnt_sp < total_sp) {
 				System.out.print("  ");
 				cnt_sp++;

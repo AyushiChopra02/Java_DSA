@@ -20,7 +20,7 @@ public class patrn_26 {
 				cnt_sp++;
 			}
 			int num=1; 
-			int cnt_str=0 ;
+			int cnt_str= 0 ;
 			while(cnt_str < total_str) {
 				System.out.print(num+" ");
 				num++;

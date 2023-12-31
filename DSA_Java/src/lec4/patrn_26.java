@@ -24,7 +24,7 @@ public class patrn_26 {
 			while(cnt_str < total_str) {
 				System.out.print(num+" ");
 				num++;
-				cnt_str++ ;
+				cnt_str++;
 			}
 			r++;
 			

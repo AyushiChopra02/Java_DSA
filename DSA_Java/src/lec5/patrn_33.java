@@ -11,7 +11,7 @@ public class patrn_33 {
 //			step 2!!!!!!!
 			int cnt_sp = 0;
 			while (cnt_sp < total_sp) {
-				System.out.print("  ");
+				System.out.print("  ") ;
 				cnt_sp++;
 			}
 			int num = start_row_num;

@@ -12,7 +12,7 @@ public class rotateNum {
 
 			nod++;
 		}
-		rot = rot % nod;
+		rot = rot % nod ;
 		num = baaaaackup;
 		System.out.println(nod);
 

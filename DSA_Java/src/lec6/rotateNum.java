@@ -5,7 +5,7 @@ public class rotateNum {
 		int num = 12345;
 		int rot = 23;
 
-		int baaaaackup = num;
+		int baaaackup = num;
 		int nod = 0;
 		while (num > 0) {
 			num = num / 10 ;

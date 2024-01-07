@@ -3,7 +3,7 @@ package lec7;
 public class fnctn {
 public static void main(String[] args) {
 	party();
-	int ans = add(10,15,-7);
+	 add(10,15,-7);
 	System.out.println();
 }
 public static void party() {

@@ -15,7 +15,7 @@ public class ShoppingGame {
 	        int n = scn.nextInt();
 
 	        int aayushRemaining = m;
-	        int harshitRemaining =  n;
+	        int harshitRemaining = n;
 
 	        
 	        while (true) {

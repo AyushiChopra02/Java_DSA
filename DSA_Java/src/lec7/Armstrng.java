@@ -4,7 +4,7 @@ public class Armstrng {
 public static void main(String[] args) {
 	printAllArm(1000);
 }
-public static void printAllArm(int n) {
+public static void printAllArm(int n)  {
 	for(int num =1 ; num <=n ; num++) {
 		if(isArm(num)) {
 			System.out.println(num);

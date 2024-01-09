@@ -12,7 +12,7 @@ public static void printAllArm(int n)  {
 	}
 	
 }
-public static boolean isArm(int num) {
+public static boolean isArm(int num){
 	int nod = numOfDigit(num);
 	int sum = 0;
 	int baackup = num ;

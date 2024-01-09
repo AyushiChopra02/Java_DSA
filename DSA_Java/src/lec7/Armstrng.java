@@ -7,7 +7,7 @@ public static void main(String[] args) {
 public static void printAllArm(int n)  {
 	for(int num =1 ; num <=n ; num++) {
 		if(isArm(num)) {
-			System.out.println(num);
+			System.out.println(num) ;
 		}
 	}
 	

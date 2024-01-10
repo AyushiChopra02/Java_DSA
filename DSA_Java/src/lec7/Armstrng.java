@@ -7,13 +7,13 @@ public static void main(String[] args) {
 public static void printAllArm(int n)  {
 	for(int num =1 ; num <=n ; num++) {
 		if(isArm(num)) {
-			System.out.println(num) ;
+			System.out.println(num ) ;
 		}
 	}
 	
 }
 public static boolean isArm(int num){
-	int nod = numOfDigit(num);
+	int nod = numOfDigit(num) ;
 	int sum = 0;
 	int baackup = num ;
 	while(num >0) {

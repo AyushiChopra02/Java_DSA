@@ -11,7 +11,7 @@ public static void party() {
 }
 //hm chahhte h add int return kre mtlb return typeint h isliye void ki jgah int likha
 public static int add(int a , int b,int c){
-	System.out.println(a+b+c);
+	System.out.println(a+b+c );
 	return(a+b+c);
 	
 }

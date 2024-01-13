@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	System.out.println();
 }
 public static void party() {
-	System.out.println("naacho");
+	System.out.println("naacho ");
 }
 //hm chahhte h add int return kre mtlb return typeint h isliye void ki jgah int likha
 public static int add(int a , int b,int c){

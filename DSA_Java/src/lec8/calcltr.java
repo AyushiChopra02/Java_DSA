@@ -14,7 +14,7 @@ public class calcltr{
 	                int no2 = scn.nextInt();
 	                System.out.println(no1 + no2);
 	                operator = scn.next().charAt(0);
-	            }else if(operator == '-'){
+	            }else if(operator == '-' ){
 	int no1 = scn.nextInt();
 	                int no2 = scn.nextInt();
 	                System.out.println(no1 - no2);

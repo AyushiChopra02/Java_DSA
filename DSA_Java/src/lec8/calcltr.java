@@ -35,7 +35,7 @@ public class calcltr{
 	                System.out.println(no1 % no2);
 	                operator = scn.next().charAt(0);
 	            }else{
-	                System.out.println("Invalid Operation. Try again. ")
+	                System.out.println("Invalid Operation. Try again. ");
 	                System.out.println();
 	                operator = scn.next().charAt(0);
 	        }

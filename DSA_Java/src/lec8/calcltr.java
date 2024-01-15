@@ -8,7 +8,7 @@ public class calcltr{
 	
 	        Scanner scn = new Scanner(System.in);
 	        char operator = scn.next().charAt(0);
-	        while(operator != 'X' && operator != 'x'){
+	        while(operator  != 'X' && operator != 'x'){
 	            if(operator == '+'){
 	                int no1 = scn.nextInt();
 	                int no2 = scn.nextInt();

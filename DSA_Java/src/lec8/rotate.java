@@ -2,7 +2,7 @@ package lec8;
 
 public class rotate {
 public static void main(String[] args) {
-	int arr[] = {10,20,30,40,50};
+	int arr[] = {10,20,30,40, 50};
 	print(arr);
 	Rotate(arr , 1);
 	print(arr);

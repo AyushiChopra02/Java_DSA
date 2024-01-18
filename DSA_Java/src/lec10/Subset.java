@@ -8,7 +8,7 @@ public static void main(String[] args) {
 			for(int i=s; i<=e ; i++) {
 				System.out.print(arr[i] + " ");
 			}
-			System.out.println();
+			System.out.println(); 
 		}
 	}
 }

@@ -12,7 +12,7 @@ public class MaxInArray {
  
 	        
 	        for (int idx = 0; idx < arr.length; idx++) {
-	            arr[idx] = scn.nextInt();
+	            arr[idx] = scn.nextInt() ;
 	        }       
 	        int max = maximum(arr, n) ;   
 	System.out.println(max);

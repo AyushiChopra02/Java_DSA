@@ -11,13 +11,12 @@ while(strt <= end) {
 		end = mid - 1;
 		
 	}
-	else if(arr[mid]<elmnt ){
+	else if(arr[mid]<elmnt){
 		strt = mid + 1;
 	}
 	else {
 		System.out.println("elemnt found at index" + mid);
 	}
-	System.out.println("elemnt not found");
 }
 }
 }

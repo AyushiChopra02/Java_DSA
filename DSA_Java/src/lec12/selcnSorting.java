@@ -14,7 +14,7 @@ public static void Selection(int arr[]) {
 		int max_id =0;
 		for(int i=0 ; i <=last ; i++) {
 			if (arr[i] > arr[max_id]) {
-				max_id =i;
+				max_id =i ;
 			}
 		}
 		//swap

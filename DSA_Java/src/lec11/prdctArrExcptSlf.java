@@ -13,7 +13,7 @@ public static void main(String[] args) {
 			right = right*arr[j];
 			
 		}
-		long ans = left*right;
+		long ans = left*right ;
 		System.out.print(ans+ " ");
 	}
 }

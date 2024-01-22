@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class selcnSorting {
 public static void main(String[] args) {
-	int arr[] = {50,40,30, 20,10};
+	int arr[] = {50,40,30, 20 ,10};
 	System.out.println(Arrays.toString(arr));
 	Selection(arr);
 	System.out.println(Arrays.toString(arr));

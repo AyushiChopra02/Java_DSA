@@ -11,7 +11,7 @@ public class MaxInArray {
 	        
  
 	        
-	        for (int idx = 0; idx < arr.length; idx++) {
+	        for (int idx = 0; idx < arr.length ; idx++) {
 	            arr[idx] = scn.nextInt() ;
 	        }       
 	        int max = maximum(arr, n) ;   

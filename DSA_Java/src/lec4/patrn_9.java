@@ -4,7 +4,7 @@ public class patrn_9 {
 public static void main(String[] args) {
 	int n=5;
 	int r=1;
-	int total_sp = n-1;
+	int total_sp = n-1 ;
 	int total_str =1 ;
 	while(r <= n) {
 		//step2

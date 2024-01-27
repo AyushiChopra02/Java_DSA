@@ -6,7 +6,7 @@ public class patrn_33 {
 		int r = 1;
 		int total_sp = n - 1;
 		int total_st = 1;
-		int start_row_num = n;
+		int start_row_num = n ;
 		while (r <= n) {
 //			step 2!!!!!!!
 			int cnt_sp = 0;

@@ -8,7 +8,7 @@ public class patrn_33 {
 		int total_st = 1;
 		int start_row_num = n ;
 		while (r <= n) {
-//			step 2!!!!!!!
+//			step 2
 			int cnt_sp = 0;
 			while (cnt_sp < total_sp) {
 				System.out.print("  ") ;

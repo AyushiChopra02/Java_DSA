@@ -16,7 +16,7 @@ public class patrn_33 {
 			}
 			int num = start_row_num;
 
-			int cnt_st = 0;
+			int cnt_st = 0 ;
 			while (cnt_st < total_st) {
 				if (num == 10) {
 					System.out.print("0 ");

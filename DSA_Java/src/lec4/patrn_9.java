@@ -13,7 +13,7 @@ public static void main(String[] args) {
 			System.out.print("  ");
 			cnt_sp++;
 		}
-		int cnt_str=0;
+		int cnt_str=0 ;
 		while(cnt_str < total_str) {
 			System.out.print("* ");
 			cnt_str++;

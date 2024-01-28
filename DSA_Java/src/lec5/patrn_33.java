@@ -14,7 +14,7 @@ public class patrn_33 {
 				System.out.print("  ") ;
 				cnt_sp++;
 			}
-			int num = start_row_num;
+			int num = start_row_num ;
 
 			int cnt_st = 0 ;
 			while (cnt_st < total_st) {

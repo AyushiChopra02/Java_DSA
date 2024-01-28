@@ -18,7 +18,7 @@ public class patrn_33 {
 
 			int cnt_st = 0 ;
 			while (cnt_st < total_st) {
-				if (num == 10) {
+				if (num ==  10) {
 					System.out.print("0 ");
 				} else {
 					System.out.print(num + " ");

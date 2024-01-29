@@ -14,7 +14,7 @@ public class palindrome {
 			if(str.charAt(s) != str.charAt(e)) {
 				return false;
 			}
-			s++; e--;
+			s++; e-- ;
 		}
 		return true;
 		}

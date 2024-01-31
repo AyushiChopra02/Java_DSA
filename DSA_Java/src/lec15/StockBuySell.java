@@ -11,7 +11,7 @@ public class StockBuySell {
 	            maxProfit = Math.max(maxProfit ,  profit);
 
 	        }
-	        return maxProfit ;
+	        return maxProfit;
 	    }
 	}
 

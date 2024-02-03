@@ -8,7 +8,7 @@ public class StockBuySell {
 	        for(int i =0 ; i<prices.length ; i++){
 	            minsofar = Math.min(minsofar , prices[i] );
 	            int profit = prices[i] - minsofar  ;
-	            maxProfit = Math.max(maxProfit ,   profit);
+	            maxProfit = Math.max(maxProfit , profit);
 
 	        }
 	        return maxProfit ;

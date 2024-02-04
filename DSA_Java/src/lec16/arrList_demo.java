@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	AL.add(10);
 	System.out.println(AL);
 	//AL size
-	System.out.println(AL.size());
+	System.out.println(AL.size()) ;
 	AL.add(50);
 	System.out.println(AL);
 	

@@ -12,7 +12,7 @@ public class palindrome {
 		while(s<e) {
 			//agr string or ending char match na kre to false h
 			if(str.charAt(s) != str.charAt(e)) {
-				return false;
+				return false ;
 			}
 			s++; e-- ;
 		}

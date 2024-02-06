@@ -15,7 +15,7 @@ public static void main(String[] args) {
 	
 	//indexing
 	System.out.println(AL.get(0));
-	System.out.println(AL.get(AL.size()-1));
+	System.out.println(AL.get(AL.size()-1)) ;
 	int ali = AL.get(0);
 	System.out.println(ali);
 	

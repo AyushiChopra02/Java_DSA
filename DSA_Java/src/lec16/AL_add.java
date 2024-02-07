@@ -3,7 +3,7 @@ package lec16;
 import java.util.ArrayList;
 
 public class AL_add {
-public static void main(String[] args) {
+public static ArrayList<Integer> main(String[] args) {
 	int arr1[]= {5,7,10,10,10,20,30,30,50,60,60,60,80};
 	int arr2[]= {10,10,15,20,30,30,30,60,70,80,80,90};
 	int idx1 = arr1.length -1;
@@ -23,8 +23,11 @@ public static void main(String[] args) {
 			AL.add(digit);
 			carry = sum /10 ;
 			idx1 -- ;
-			idx2 ++ ;
+			idx2 -- ;
 		}
+	if(carry > 0) {
+		AL.add(0 , carry);
 	}
+	return AL;
 }
 }

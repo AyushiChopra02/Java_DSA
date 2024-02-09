@@ -8,7 +8,7 @@ public class long_input {
 	
 Scanner scn = new Scanner(System.in) ;
 long l = scn.nextLong();
-System.out.println(l+20);
+System.out.println(l+20) ;
 
 }
 }

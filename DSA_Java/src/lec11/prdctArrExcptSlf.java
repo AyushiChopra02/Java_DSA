@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	for(int i = 0 ; i < arr.length ; i++) {
 		long left =1 ;
 		long right = 1;
-		for(int j=0 ; j<i ; j++) {
+		for(int j=0 ; j<i ; j++){
 			left = left*arr[j];
 		}
 		for(int j = i+1; j <arr.length ; j++ ) {

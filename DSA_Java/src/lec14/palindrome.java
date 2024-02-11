@@ -18,15 +18,10 @@ public class palindrome {
 		}
 		return true;
 		}
-	
-	
-	
-	
 	//saare palindrome print krne k lie
 	public static void printAllpalinSS2(String str) {
 		for(int  c=0 ; c<str.length() ; c++) {
-			grow(str,c,c);
-				
+			grow(str,c,c);			
 			}
 		}
 	public static void grow(String str, int L, int R) {

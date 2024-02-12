@@ -12,7 +12,7 @@ public class RemoveStringDuplc {
 					if (input.length() <= 1 || input.length() > 1000) {
 						return input;
 					}	
-					if(input.charAt(0)==input.charAt(1)) {
+					if(input.charAt(0)== input.charAt(1)) {
 						return RemoveDuplet(input.substring(1));	
 					}
 					else {

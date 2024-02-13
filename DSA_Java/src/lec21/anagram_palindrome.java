@@ -30,7 +30,7 @@ public class anagram_palindrome {
 
 	        // If there's more than one character with odd frequency, it's not possible to form a palindrome
 	        //agr  1 ya 1 se choti h to yea palindrome h
-	        return oddCount <= 1;
+	        return oddCount <= 1 ;
 	    }
 	}
 

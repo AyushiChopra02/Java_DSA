@@ -13,7 +13,7 @@ public class anagram_palindrome {
 
 	    public static boolean canFormPalindrome(String str) {
 	        //array bnaya jisme char ki frq stre kre h
-	        int[] freq = new int[256]; // Assuming ASCII characters
+	        int[] freq = new int[256] ; // Assuming ASCII characters
 
 	        // Count the frequency of each character
 	        for (char ch : str.toCharArray()) {

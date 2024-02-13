@@ -1,7 +1,6 @@
 package lec21;
 
 import java.util.Scanner;
-
 public class anagram_palindrome {
 	public static void main(String[] args) {
 		  Scanner scanner = new Scanner(System.in);

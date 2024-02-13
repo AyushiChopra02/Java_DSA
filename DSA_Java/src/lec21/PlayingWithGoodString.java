@@ -3,13 +3,11 @@ package lec21;
 import java.util.Scanner;
 
 public class PlayingWithGoodString {
-	
-	    public static void main(String[] args) {
+	 public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        String S = scanner.nextLine();
 	        System.out.println(findLongestGoodString(S));
 	    }
-
 	    public static int findLongestGoodString(String S) {
 	        int max_length = 0;
 	        int current_length = 0;
@@ -28,14 +26,9 @@ public class PlayingWithGoodString {
 	        max_length = Math.max(max_length, current_length);
 
 	        return max_length;
-	    }
-
-	    public static boolean isVowel(char ch) {
+	    } public static boolean isVowel(char ch) {
 	        return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
 	    }
 	}
 
 	    
-
-
-}

@@ -14,7 +14,7 @@ public static void main(String[] args) {
 			}
 			}else {
 				for(int r = mat.length-1 ; r>=0 ; r--) {
-					System.out.println(mat[r][c]) ;
+					System.out.println(mat[r][c]);
 				}
 			}
 		}

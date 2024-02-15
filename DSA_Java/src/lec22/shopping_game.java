@@ -19,7 +19,7 @@ public class shopping_game {
 		                harshitRemaining -= i;
 		                if (harshitRemaining <= 0) {
 		                    System.out.println("Aayush");
-		                    return;
+		                    return ; 
 		                }
 		            }
 		        }

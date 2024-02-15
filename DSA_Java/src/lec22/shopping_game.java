@@ -12,7 +12,7 @@ public class shopping_game {
 		            for (int i = 1; i <= aayushRemaining; i++) {
 		                aayushRemaining -= i;
 		                if (aayushRemaining <= 0) {
-		                    System.out.println("Harshit");
+		                    System.out.println("Harshit") ;
 		                    return;
 		                }}          
 		            for (int i = 1; i <= harshitRemaining; i++) {

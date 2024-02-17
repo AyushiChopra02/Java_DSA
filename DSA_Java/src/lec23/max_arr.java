@@ -13,7 +13,7 @@ public static int Max(int s , int arr[]) {
 		 //BP = Max(s , arr)
 		 //SP = Max(s+1 , arr)
 	}
-		 int  sp = Max(s+1 , arr) ;
+		 int  sp = Max(s+1  , arr) ;
 		 return Math.max(arr[s] , sp) ;
 	
 

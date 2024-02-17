@@ -1,7 +1,7 @@
 package lec23;
 
 public class max_arr {
-public static void main(String[] args) {
+public static void main(String[] args)  {
 	int arr[] = { 5,2,10,6};
 	Max(0,arr);
 }

@@ -19,7 +19,7 @@ public static int FirstOcc(int s , int arr[] , int ali) {
 		}
 		return sp;
 	}
-	public static int LastOcc(int s , int arr[] , int ali ) {
+	public static int LastOcc(int s , int arr[] , int ali) {
 		if (s == arr.length) {
 			return -1 ;
 		}

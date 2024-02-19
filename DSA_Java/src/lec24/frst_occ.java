@@ -13,6 +13,7 @@ public static int FirstOcc(int s , int arr[] , int ali) {
 	}
 		//BP : FO(s , ali , arr)
 		//SP : FO(s+1 , arr,ali)
+	//ali h variable ka naam
 		int sp = FirstOcc(s+1 , arr , ali) ;
 		if(arr[s] == ali) {
 			return s;

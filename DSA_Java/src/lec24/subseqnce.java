@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	        int n = str.length();
 	        for (int i = 0; i < (1 << n); i++) {
 	        	//yha i binary no. ko gnrte krne k lie use hora h 0 se lekar (1 << n) - 1 tak.
-	            StringBuilder subsequence = new StringBuilder();
+	            StringBuilder subsequence = new StringBuilder() ;
 	            for (int j = 0; j < n; j++) {
 	                if ((i & (1 << j)) > 0) {
 	                    subsequence.append(str.charAt(j));

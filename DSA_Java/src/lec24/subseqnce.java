@@ -16,7 +16,7 @@ public static void main(String[] args) {
 	                    subsequence.append(str.charAt(j));
 	                }
 	            }
-	            System.out.println(subsequence);
+	            System.out.println(subsequence) ;
 	        }
 	    }}
 

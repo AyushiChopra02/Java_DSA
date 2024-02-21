@@ -23,7 +23,7 @@ public static void main(String[] args) {
 	    }
 
 	    //  function to print even numbers in increasing sequence
-	    public static void printEven(int start, int N) {
+	    public static void printEven(int start, int N)  {
 	        if (start > N) {
 	            return;
 	        }

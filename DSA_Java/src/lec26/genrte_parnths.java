@@ -12,7 +12,7 @@ public static void solve(int op , int cl , String path) {
 	if(op>0) {
 		solve(op-1 , cl , path+ ")");
 		if(cl >0) {
-		solve(op , cl-1 , path + ")");
+		solve(op , cl-1 , path + ")") ;
 	}}
 }
 }

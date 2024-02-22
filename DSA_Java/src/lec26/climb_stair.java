@@ -13,7 +13,7 @@ public static void kuud(int curr , String path , int dest) {
 	if(curr > dest) {
 		return ;
 	}
-	kuud(curr +1 , path+1 , dest);
+	kuud(curr +1 ,  path+1 , dest);
 	kuud(curr+2 , path+2 , dest);
 }
 }

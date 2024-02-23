@@ -27,7 +27,7 @@ public class arr_trget_triplt {
 						}
 						if(arr[i]+arr[left]+arr[right]>target)  {
 							right--;
-						}else {left++;}
+						}else {left++; }
 					}
 			}
 

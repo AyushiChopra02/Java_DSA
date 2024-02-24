@@ -19,7 +19,7 @@ public class arr_trget_triplt {
 			Arrays.sort(arr);
 			for (int i = 0; i < arr.length - 2; i++) {
 					left=i+1;
-					right=arr.length-1;	
+					right=arr.length-1 ;	
 					while(left<right) {
 						
 						if(arr[i]+arr[left]+arr[right]==target) {

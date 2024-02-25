@@ -1,16 +1,26 @@
 package lec28;
 
+import java.util.Arrays;
+
 public class Permutation {
 public static void main(String[] args) {
-	perm(2 , "", 4);
+	int r=2 ;
+	int total =3 ;
+	perm(r , "", new boolean[total] , total);
 }
-public static void perm(int r , String path , int total) {
+public static void perm(int r , String path ,boolean[]picked, int total) {
 	if(r==0) {
 		System.out.println(path);
+		System.out.println(Arrays.toString(picked));
+		System.out.println("======");
 		return ;
 	}
 	for(int curr=0 ; curr <total ; curr++) {
-		perm(r-1 ,path +"b"+curr , total);
+		if(picked[curr] == false) {
+			picked[curr] = true;
+		
+		perm(r-1 ,path +"b"+curr , picked, total);
 	}
+}
 }
 }

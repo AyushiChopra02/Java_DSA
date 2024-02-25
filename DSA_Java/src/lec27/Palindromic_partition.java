@@ -13,7 +13,7 @@ public static void kaat(String table , String bag) {
 	for(int chakku =1 ; chakku <= table.length() ; chakku++ ) {
 		String piece = table.substring(0, chakku);//a
 		String remn = table.substring(chakku); //bcd
-		kaat(remn , bag+piece +"-") ;
+		kaat(remn , bag+piece +"-")  ;
 	}
 }
 }

@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	int r = 2;
 	PT(r,-1 , "",n);
 }
-public static void PT(int r,int prev , String path , int n) {
+public static void PT(int r,int prev , String path , int n ) {
 	if(r==0) {
 		System.out.println(path);
 		return;

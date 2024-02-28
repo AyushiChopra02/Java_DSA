@@ -25,7 +25,7 @@ public class word_srch{
         ans = ans || exist(r - 1, c, remain, board);
         ans = ans || exist(r + 1, c, remain, board);
         ans = ans || exist(r, c + 1, remain, board); 
-        ans = ans || exist(r, c - 1, remain, board); // Fixed this line, it should be c - 1 for left
+        ans = ans || exist(r, c - 1, remain, board) ; // Fixed this line, it should be c - 1 for left
         board[r][c] = prev;
         return ans;
     }

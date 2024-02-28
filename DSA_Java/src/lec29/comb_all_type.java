@@ -11,7 +11,7 @@ public static void PT(int r,int prev , String path , int n) {
 		System.out.println(path);
 		return;
 	}
-	for(int curr=prev +1 ;curr<n ; curr++) {
+	for(int curr=prev +1 ;curr<n ; curr++)  {
 		//curr
 		PT(r-1 , curr,path + "b" + curr , n);
 	}

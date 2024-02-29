@@ -22,7 +22,7 @@ public class word_srch{
         char prev = board[r][c];
         board[r][c] = '.';
         boolean ans = false;
-        ans = ans || exist(r - 1 , c, remain, board);
+        ans = ans || exist(r - 1 , c, remain, board) ;
         ans = ans || exist(r + 1, c, remain, board);
         ans = ans || exist(r, c + 1, remain, board); 
         ans = ans || exist(r, c - 1, remain, board) ; // Fixed this line, it should be c - 1 for left

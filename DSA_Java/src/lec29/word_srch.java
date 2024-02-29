@@ -11,7 +11,7 @@ public class word_srch{
         return false; // Moved this line inside the method to return false if nothing found
     }
     
-    private boolean exist(int r, int c, String word, char[][] board) {
+    private boolean exist(int r, int c , String word, char[][] board) {
         if(word.isEmpty()) {
             return true;
         }

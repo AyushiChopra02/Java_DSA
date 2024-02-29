@@ -1,6 +1,6 @@
 package lec5;
-
 public class patrn_33 {
+	
 	public static void main(String[] args) {
 		int n = 10;
 		int r = 1;

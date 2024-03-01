@@ -21,7 +21,7 @@ public class coin_change_wrt_PT {
             }
 
             if (target - coins[i] >= 0) {
-                coin(i + 1, target - coins[i], coins, path + coins[i] + " ");
+                coin(i + 1, target - coins[i], coins , path + coins[i] + " ");
             }
         }
     }

@@ -6,7 +6,7 @@ public static void main(String[] args) {
 }
 public static void SS(String str , String team) {
 	if(str.isEmpty()) {
-		System.out.println(team +")");
+		System.out.println(team +")") ;
 		return ;
 	}
 	//str = "abcd"

@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class sorting {
     public static void main(String[] args) {
         int arr1[] = {10, 20, 30, 50};
-        int arr2[] = {5, 15, 25, 500};
+        Object arr2;
+		int arr2[] = {5, 15, 25, 500};
         System.out.println(Arrays.toString(merge(arr1, arr2)));
     }
 

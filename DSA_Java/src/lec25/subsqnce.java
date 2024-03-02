@@ -11,7 +11,7 @@ public static void SS(String str , String team) {
 	}
 	//str = "abcd"
 	//team = "Z"
-	String remain = str.substring(1);
+	String remain = str.substring(1) ;
 	char ch = str.charAt(0);
 	SS(remain, team + ch);
 	SS(remain , team);

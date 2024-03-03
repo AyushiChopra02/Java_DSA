@@ -4,7 +4,7 @@ public class subsqnce {
 public static void main(String[] args) {
 	SS("abc" , "" );
 }
-public static void SS(String str , String team) {
+public static void SS(String str , String team ) {
 	if(str.isEmpty()) {
 		System.out.println(team +")")  ;
 		return ;

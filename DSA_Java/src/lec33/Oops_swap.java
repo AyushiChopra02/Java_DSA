@@ -22,7 +22,7 @@ public static void Test2(Student s1 , Student s2) {
 	s2.Name = temp_s;
 	int temp_i = s1.age;
 	s1.age = s2.age;
-	s2.age = temp_i;
+	s2.age = temp_i ;
 }
 
 }

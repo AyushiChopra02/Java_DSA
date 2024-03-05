@@ -11,8 +11,7 @@ public static void main(String[] args) {
 			    }
 			    public static StringBuilder duplet(int i,int j,StringBuilder sb){
 			      if(j==sb.length()){
-//			         String  str1= sb.toString();
-//			          System.out.println(sb);
+
 			          return sb ;
 			      }
 			       if(sb.charAt(i)==sb.charAt(j)){

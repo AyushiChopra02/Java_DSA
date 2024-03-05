@@ -18,7 +18,7 @@ public static void main(String[] args) {
 			       if(sb.charAt(i)==sb.charAt(j)){
 			        sb =sb.insert(i+1,'*');
 			       }
-			       return duplet(i+1,j+1,sb);
+			       return duplet(i+1,j+1,sb) ;
 		}
 
 

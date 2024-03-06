@@ -21,7 +21,7 @@ public class Rec_convrt_StrngTo_Int {
 	        if (index < 0) {
 	            return result;
 	        }
-	        int digit = str.charAt(index) - '0';
+	        int digit = str.charAt(index) - '0' ;
 	        result = result * 10 + digit;
 	        return stringToIntegerHelper(str, index - 1, result);
 	    }

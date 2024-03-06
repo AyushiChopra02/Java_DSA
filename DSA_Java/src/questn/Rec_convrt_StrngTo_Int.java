@@ -14,7 +14,7 @@ public class Rec_convrt_StrngTo_Int {
 	        System.out.println("Conv int : " + result);
 	    }
 	    public static int stringToInteger(String str) {
-	        return stringToIntegerHelper(str, str.length() - 1, 0);
+	        return stringToIntegerHelper(str, str.length() - 1, 0) ;
 	    }
 	    private static int stringToIntegerHelper(String str, int index, int result) {
 	        

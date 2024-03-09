@@ -3,7 +3,6 @@ package questn;
 import java.util.Scanner;
 
 public class whatIsInParnthsis {
-	
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);   
 	        String str = scanner.nextLine();
@@ -22,7 +21,7 @@ public class whatIsInParnthsis {
 	        } else {
 	            return "";
 	        }}
-	    private static int findClosingParenthesis(String str, int index) {
+	    private static int findClosingParenthesis(String str, int index)  {
 	        if (index >= str.length()) {
 	            return -1;}
 	        if (str.charAt(index) == ')') {

@@ -17,7 +17,7 @@ public class whatIsInParnthsis {
 	        }
 	        int endIndex = findClosingParenthesis(str, startIndex + 1);
 	        if (endIndex != -1) {
-	            return str.substring(startIndex + 1, endIndex);
+	            return str.substring(startIndex + 1, endIndex) ;
 	        } else {
 	            return "";
 	        }}

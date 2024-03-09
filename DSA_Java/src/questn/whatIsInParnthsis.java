@@ -27,7 +27,7 @@ public class whatIsInParnthsis {
 	        if (str.charAt(index) == ')') {
 	            return index;
 	        }
-	        return findClosingParenthesis(str, index + 1) ;
+	        return findClosingParenthesis(str, index + 1)  ;
 	    }
 	}
 

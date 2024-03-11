@@ -9,7 +9,7 @@ public class subset {
 	        int[] nums = new int[N];
 	       
 	        for (int i = 0; i < N; i++) {
-	            nums[i] = scanner.nextInt();
+	            nums[i] = scanner.nextInt() ;
 	        }
 	        
 	        int target = scanner.nextInt();

@@ -23,7 +23,6 @@ class SnakesAndLadders {
             return 1;
 //path ka count store krega 
         int count = 0;
-
        // yea loop har ek possible dice value ke liye board par travel karta hai. 
         //i variable ko 1 se lekar M tak badhaya jata hai, jo dice ke faces ko represent karta hai. Har ek iteration mein,
         //hum dekhte hain ki current position N se i ko subtract karke naya position kya hai. Agar nayi position valid hai (N - i >= 0), 
@@ -48,7 +47,7 @@ class SnakesAndLadders {
         }
 
         // Recursively generate paths by rolling the dice
-        for (int i = 1; i <= M; i++) {
+        for (int i = 1; i <= M; i++) { 
             if (N - i >= 0) {
                 printPaths(N - i, M, path + i);
             }

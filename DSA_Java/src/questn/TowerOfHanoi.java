@@ -8,7 +8,7 @@ public class TowerOfHanoi {
 			System.out.println(src + "->" + des);
 			return ;
 		}
-		towerOfHanoi(n-1 , src , des, aux);
+		towerOfHanoi(n-1 , src , des, aux) ;
 		towerOfHanoi(1 , src , aux , des);
 		towerOfHanoi(n-1 , aux , src , des);
 	}

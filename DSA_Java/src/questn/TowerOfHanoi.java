@@ -15,6 +15,6 @@ public class TowerOfHanoi {
 	public static void main(String[] args) {
 		Scanner scr = new Scanner(System.in);
 		int n = scr.nextInt();
-		towerOfHanoi(n , 'A' , 'B' , 'C');
+		towerOfHanoi(n , 'A' , 'B' , 'C') ;
 	}
 }

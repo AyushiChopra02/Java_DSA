@@ -19,7 +19,7 @@ public class Obedient_String {
 	        if (str.startsWith("bb")) {
 	            // If there is an 'a' following "bb"
 	            if (str.length() >= 3 && str.charAt(2) == 'a') {
-	                return checkString(str.substring(3));
+	                return checkString(str.substring(3)) ;
 	            } else {
 	                // agr kuj ni h following "bb", return false
 	                return false;

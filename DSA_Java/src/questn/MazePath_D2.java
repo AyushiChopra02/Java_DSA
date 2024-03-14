@@ -3,10 +3,6 @@ package questn;
 import java.util.Scanner;
 
 public class MazePath_D2 {
-	
-	
-
-	
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        int n = scanner.nextInt();

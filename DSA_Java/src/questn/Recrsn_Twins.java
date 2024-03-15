@@ -17,7 +17,7 @@ public class Recrsn_Twins {
 	        // If the current character and the character before it are the same
 	        // and the character after them is also the same, then we have a twin
 	        if (str.charAt(0) == str.charAt(2)) {
-	            twins++;
+	            twins++; 
 	        }
 	        return twins;
 	    }

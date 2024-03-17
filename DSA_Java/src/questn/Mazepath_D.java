@@ -19,7 +19,6 @@ public class Mazepath_D {
         curr.append('V');
         countWays(i+1,j,N,ans,curr,res);
         curr.deleteCharAt(curr.length()-1);
-
         curr.append('H');
         countWays(i,j+1,N,ans,curr,res);
         curr.deleteCharAt(curr.length()-1);

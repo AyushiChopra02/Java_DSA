@@ -27,7 +27,7 @@ public class Mazepath_D {
         if( i==j ){
             curr.append('D');
             countWays(i+1,j+1,N,ans,curr,res);
-            curr.deleteCharAt(curr.length()-1);
+            curr.deleteCharAt(curr.length()-1) ;
         }
 
     }

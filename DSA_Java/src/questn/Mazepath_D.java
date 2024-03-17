@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Mazepath_D {
 
-    static void countWays(int i, int j, int N, int[] ans, StringBuilder curr, List<String> res){
+    static void countWays(int i, int j, int N, int[] ans, StringBuilder curr, List<String> res ){
 
         if( i==N || j==N )
             return;

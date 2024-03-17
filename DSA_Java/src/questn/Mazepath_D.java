@@ -9,7 +9,7 @@ public class Mazepath_D {
     static void countWays(int i, int j, int N, int[] ans, StringBuilder curr, List<String> res ){
 
         if( i==N || j==N )
-            return;
+            return ;
         if(i==N-1 && j==N-1 ){
             res.add(curr.toString()) ;
             ans[0]++;

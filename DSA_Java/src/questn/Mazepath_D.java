@@ -11,7 +11,7 @@ public class Mazepath_D {
         if( i==N || j==N )
             return ;
         if(i==N-1 && j==N-1 ){
-            res.add(curr.toString()) ;
+            res.add(curr.toString())  ;
             ans[0]++;
             return;
         }

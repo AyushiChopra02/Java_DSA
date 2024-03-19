@@ -27,7 +27,7 @@ public class Incr_Dec_seq {
 			if(ans==0){
 				System.out.println("false");
 			}else{
-				System.out.println("true");
+				System.out.println("true") ;
 			}
 		}
 	

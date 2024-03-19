@@ -20,7 +20,7 @@ public class patrn_132 {
 	                    stack.pop(); 
 	                }
 	                if (!stack.isEmpty() && stack.peek() < nums[j]) {
-	                    return true; 
+	                    return true;  
 	                }
 	                stack.push(nums[j]); 
 	            }

@@ -19,7 +19,7 @@ public class patrn_132 {
 	                while (!stack.isEmpty() && stack.peek() <= minLeft[j]) {
 	                    stack.pop(); 
 	                }
-	                if (!stack.isEmpty() && stack.peek() < nums[j]) {
+	                if (!stack.isEmpty() && stack.peek() < nums[j])  {
 	                    return true;  
 	                }
 	                stack.push(nums[j]); 

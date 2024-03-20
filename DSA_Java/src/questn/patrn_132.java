@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class patrn_132 {
     public boolean find132pattern(int[] nums) {
-	        if (nums == null || nums.length < 3) {
+	        if (nums == null || nums.length < 3){
 	            return false;
 	        }
 	        int n = nums.length;

@@ -5,7 +5,7 @@ public static void main(String[] args) {
 	int arr[] = {10 ,20,30,40};
 	Print(0 , arr);
 }
-public static void Print(int s , int arr[]) {
+public static void Print(int s , int arr[])  {
 	if(s == arr.length) {
 		return ;
 	}

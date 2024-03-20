@@ -14,7 +14,7 @@ public static void main(String[] args) {
 			
 		}
 		long ans = left*right ;
-		System.out.print(ans+ " ") ;
+		System.out.print(ans+ " ")  ;
 	}
 }
 }

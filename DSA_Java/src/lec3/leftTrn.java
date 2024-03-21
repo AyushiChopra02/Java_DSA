@@ -25,8 +25,6 @@ public static void main(String[] args) {
 			tots_sp--;
 			tots_st++;
 			System.out.println();
-			
-			
 		}
 }
 }

@@ -36,7 +36,7 @@ public class Stack {
         tos--;
         return ans;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         Stack stack = new Stack(3); // Create a stack with capacity 3
         stack.add(10);
         stack.add(20);

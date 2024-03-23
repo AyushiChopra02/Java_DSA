@@ -21,4 +21,5 @@ public static void nextGrtr(int[] arr) {
 		int A = S.pop();
 		System.out.println(A + "=>" + -1);
 	}
-	}}
+	}
+}

@@ -13,7 +13,7 @@ public class search_in_rotated_arr {
 	                return mid;
 	            }
 	            if(s==e){ //strt or end idx same hogya mtlb mid pt nai mila to return -1
-	                return -1;
+	                return -1 ;
 	            }
 	            // Agar array sorted hai aur pivot search element se bada hai ..End ko mid-1 pe le jate. kuki agr pivot bda h to..pivot ke left side mein search kar rahe hain. Agar pivot hi humara target hota, to hume pivot ka index chahiye hota, jo mid hai. Lekin kyunki hum pivot se bade element ki taraf ja rahe hain, hume pivot ke left side mein search karna hai, isliye hum end ko mid - 1 pe set kar rahe hain. Yeh hume mid se left side ke part mein search karne ka signal deta hai.
 	            if(arr[s]<arr[e] && pivot >ali){ 

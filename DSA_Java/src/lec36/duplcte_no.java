@@ -25,7 +25,7 @@ public class duplicate_no {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in) ;
         Solution solution = new Solution();
 
         // Input the size of the array

@@ -2,7 +2,7 @@ package lec36;
 
 import java.util.Scanner;
 
-public class duplicate_no {
+public class duplcte_no {
     public static class Solution {
         public int findDuplicate(int[] nums) {
             int n = nums.length;

@@ -11,7 +11,7 @@ public class Stack {
         tos = -1; //-1 se intze krte h
     }
     public int size() {
-        return tos + 1;
+        return tos + 1 ;
     }
     public boolean isFull() {
         return size() == arr.length;

@@ -47,4 +47,8 @@ public class Stack {
         System.out.println("Popped element: " + stack.pop()); //  print 10
         System.out.println("Popped element: " + stack.pop()); //  print "Stack is empty. Nothing to pop."
     }
+	public int peek() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }

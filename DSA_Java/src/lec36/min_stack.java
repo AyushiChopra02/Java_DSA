@@ -21,7 +21,7 @@ public void add(int ali) {
 	if(isEmpty()) {
 		curr_min = ali;
 		//super mtlb jo extend kri h stack se
-		super.add(ali);
+		super.add(ali) ;
 	}
 }
 public int getMin() {

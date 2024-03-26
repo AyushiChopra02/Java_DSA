@@ -22,6 +22,15 @@ public void add(int ali) {
 		curr_min = ali;
 		//super mtlb jo extend kri h stack se
 		super.add(ali) ;
+		return;
+	}
+	if(ali >= curr_min) {
+		super.add(ali);
+	}else {
+		int prev_min = curr_min;
+		curr_min = ali;
+		int Magical = 2*curr_min-prev_min;
+		super.add(Magical);
 	}
 }
 public int getMin() {

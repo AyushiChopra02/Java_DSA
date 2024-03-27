@@ -5,12 +5,15 @@ import lec35.Stack;
 public class min_stack extends Stack {
 int curr_min = Integer.MAX_VALUE;
 @Override
-public int peek() {
-	int ali =super.peek();
+public int pop() {
+	int ali =super.pop();
 	if(ali<curr_min) {
 		//ali is mgcl no. and is function
 		//M = 2*curr-prev
-		return curr_min;
+		int ans = curr_min;
+		int prev_min = 2*curr_min -ali;
+		curr_min = prev_min;
+		return ans;
 	}else {
 		return ali;
 	}

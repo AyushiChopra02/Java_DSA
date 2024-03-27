@@ -20,7 +20,7 @@ public int pop() {
 	//return super.peek();
 }
 @Override
-public void add(int ali) {
+public void add(int ali){
 	if(isEmpty()) {
 		curr_min = ali;
 		//super mtlb jo extend kri h stack se

@@ -24,7 +24,7 @@ public static void main(String[] args) {
      
      //Case3
      P obj3 = new C();
-     System.out.println(obj3.dataP);
+     System.out.println(obj3.dataP) ;
      //obj3 k trgh sari prpty acss krte kuki iske pass dono ki h
      
      //case 4 never exist

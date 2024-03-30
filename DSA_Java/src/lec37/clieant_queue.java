@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	Q.add(40);
 	System.out.println(Q.poll());
 	System.out.println(Q.poll());
-	System.out.println(Q.poll());
+	System.out.println(Q.poll()) ;
 	System.out.println(Q.poll()) ;
 }
 }

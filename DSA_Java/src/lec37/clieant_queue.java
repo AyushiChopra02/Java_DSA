@@ -10,6 +10,6 @@ public static void main(String[] args) {
 	System.out.println(Q.poll());
 	System.out.println(Q.poll());
 	System.out.println(Q.poll()) ;
-	System.out.println(Q.poll()) ;
+	System.out.println(Q.poll());
 }
  }

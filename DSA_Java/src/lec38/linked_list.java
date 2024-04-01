@@ -32,6 +32,7 @@ public class linked_list {
     }
 
     public int getFirst() {
+    	//phle 
         return head.data;
     }
 
@@ -66,7 +67,7 @@ public class linked_list {
             temp = temp.next;
     }
     	Node nn = new Node(ali);
-    	temp.next = new Node(ali);
+    	temp.next = new Node(ali) ;
     }
 }
     

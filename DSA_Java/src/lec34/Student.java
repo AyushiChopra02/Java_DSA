@@ -1,7 +1,7 @@
 package lec34;
 
 public class Student {
-String Name ="gun shudaa";
+String Name ="gun shudaa" ;
 int Age = 10;
 public void Intro() {
 	System.out.println(Name + "-" + Age);

@@ -84,7 +84,7 @@ public class linked_list {
 		// TODO Auto-generated method stub
 		return null;
 	}
-	public int removeFirst() {
+	public int removeFirst()  {
 		int ans = head.data;
 		head =head.next();
 		return ans;

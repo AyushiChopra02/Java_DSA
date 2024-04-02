@@ -7,6 +7,10 @@ public class linked_list {
 		}
 		int data;
         Node next;
+		public Node next() {
+			// TODO Auto-generated method stub
+			return null;
+		}
     }
 
     //phle node ka nam headnode hota h
@@ -69,5 +73,21 @@ public class linked_list {
     	Node nn = new Node(ali);
     	temp.next = new Node(ali) ;
     }
+    public int removeLast() {
+    	Node secondLast = getNodeAt(size()-2);
+    	Node last = secondLast.next();
+    	secondLast.next = null;
+    	return last.data;
+    }
+
+	private Node getNodeAt(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public int removeFirst() {
+		int ans = head.data;
+		head =head.next();
+		return ans;
+	}
 }
     

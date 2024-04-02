@@ -60,7 +60,7 @@ public class linked_list {
     	return head == null;
     		
     }
-    public void addFirst(int ali) {
+    public void addFirst(int ali){
     	Node nn = new Node(ali);
     	nn.next = head;
     	head = nn;

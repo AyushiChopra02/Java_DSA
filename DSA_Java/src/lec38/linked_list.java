@@ -66,7 +66,7 @@ public class linked_list {
     	head = nn;
     }
     public void addLast(int ali) {
-    	Node temp = head ;
+    	Node temp = head  ;
     	while (temp != null && temp.next != null) {
             temp = temp.next;
     }

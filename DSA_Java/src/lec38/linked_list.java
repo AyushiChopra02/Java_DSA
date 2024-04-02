@@ -74,7 +74,7 @@ public class linked_list {
     	temp.next = new Node(ali) ;
     }
     public int removeLast() {
-    	Node secondLast = getNodeAt(size()-2);
+    	Node secondLast = getNodeAt(size()-2) ;
     	Node last = secondLast.next();
     	secondLast.next = null;
     	return last.data;

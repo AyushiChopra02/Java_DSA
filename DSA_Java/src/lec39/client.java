@@ -14,7 +14,7 @@ public class client {
     Node head;
 
     public client() {
-        this.head = null; // Initialize head to null
+        this.head = null; 
     }
 
     public void disp() {

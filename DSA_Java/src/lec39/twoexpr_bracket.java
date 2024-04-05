@@ -20,7 +20,7 @@ public class twoexpr_bracket {
 	        int i = 0;
 	        while (i < s.length())
 	        {
-	            if (s.charAt(i) == '+' || s.charAt(i) == '-') 
+	            if (s.charAt(i) == '+' || s.charAt(i) == '-' ) 
 	            {
 	                i++;
 	                continue;

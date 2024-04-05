@@ -28,7 +28,7 @@ public class twoexpr_bracket {
 	            if (s.charAt(i) == '(')
 	            {
 	                if (adjSign(s, i))
-	                    stk.push(stk.peek());
+	                    stk.push(stk.peek()) ;
 	                else
 	                    stk.push(!stk.peek());
 	            }

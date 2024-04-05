@@ -15,7 +15,7 @@ public class twoexpr_bracket {
 	    };
 	    static void eval(String s, int[] v, boolean add) 
 	    {
-	        Stack<Boolean> stk = new Stack<>();
+	        Stack<Boolean> stk = new Stack<>() ;
 	        stk.push(true);
 	        int i = 0;
 	        while (i < s.length())

@@ -23,7 +23,7 @@ public class twoexpr_bracket {
 	            if (s.charAt(i) == '+' || s.charAt(i) == '-' ) 
 	            {
 	                i++ ;
-	                continue ;
+	                continue  ;
 	            }
 	            if (s.charAt(i) == '(')
 	            {

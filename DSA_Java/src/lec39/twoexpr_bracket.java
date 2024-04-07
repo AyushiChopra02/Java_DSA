@@ -30,7 +30,7 @@ public class twoexpr_bracket {
 	                if (adjSign(s, i))
 	                    stk.push(stk.peek()) ;
 	                else
-	                    stk.push(!stk.peek());
+	                    stk.push(!stk.peek()) ;
 	            }
 	            else if (s.charAt(i) == ')')
 	                stk.pop();

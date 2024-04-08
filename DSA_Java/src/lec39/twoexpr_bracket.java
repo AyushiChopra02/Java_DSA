@@ -59,7 +59,7 @@ public class twoexpr_bracket {
 	        eval(expr2, v, false);
 	        for (int i = 0; i < MAX_CHAR; i++)
 	            if (v[i] != 0)
-	                return false ;
+	                return false  ;
 	 
 	        return true;
 	    }

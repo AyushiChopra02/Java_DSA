@@ -12,7 +12,7 @@ public class q {
 
 	        for (char ch : s.toCharArray()) {
 	            if (Character.isDigit(ch)) {
-	                currentCount = currentCount * 10 + (ch - '0');
+	                currentCount = currentCount * 10 + (ch - '0') ;
 	            } else if (ch == '[') {
 	                countStack.push(currentCount);
 	                stringStack.push(currentString);

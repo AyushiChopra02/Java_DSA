@@ -24,7 +24,7 @@ public class q {
 	                for (int i = 0; i < repeatTimes; i++) {
 	                    previousString.append(currentString);
 	                }
-	                currentString = previousString;
+	                currentString = previousString ;
 	            } else {
 	                currentString.append(ch);
 	            }

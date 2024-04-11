@@ -12,7 +12,7 @@ public static void nextGrtr(int[] arr) {
 	for(int B : arr) {
 		while(!S.isEmpty() && B >S.peek()) {
 			int A = S.pop();
-			System.out.println(A + "=>" + B);
+			System.out.println(A + "=>" + B) ;
 		}
 		S.add(B);
 

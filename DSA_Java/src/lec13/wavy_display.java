@@ -13,7 +13,7 @@ public static void main(String[] args) {
 				System.out.println(mat[r][c]);
 			}
 			}else {
-				for(int r = mat.length-1 ; r>=0 ; r--) {
+				for(int r = mat.length-1 ; r>=0  ; r--) {
 					System.out.println(mat[r][c]);
 				}
 			}

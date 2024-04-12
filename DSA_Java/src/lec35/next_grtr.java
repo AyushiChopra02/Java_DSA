@@ -17,7 +17,7 @@ public static void nextGrtr(int[] arr) {
 		S.add(B);
 
 }
-	while(!S.isEmpty() ) {
+	while(!S.isEmpty() )  {
 		int A = S.pop();
 		System.out.println(A + "=>" + -1);
 	}

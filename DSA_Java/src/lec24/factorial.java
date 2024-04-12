@@ -2,7 +2,7 @@ package lec24;
 
 public class factorial {
 public static void main(String[] args) {
-	System.out.println(Fac(5));
+	System.out.println(Fac(5)) ;
 }
 public static int Fac(int n) {
 	if(n==0) {

@@ -157,7 +157,16 @@ public void addFirst(int ali) {
 		}
 		Node curr = nn ;
 		printRev();
-		System.out.println(curr.data);
+		System.out.println(curr.data) ;
 		return ;
+	}
+	public void Rev() {
+		Node prev = null;
+		Node curr = head ;
+		while(curr != null) {
+			System.out.println(curr .data);
+			prev = curr ;
+			curr = curr.next;
+		}
 	}
 }

@@ -151,7 +151,7 @@ public void addFirst(int ali) {
 		prentRev(head);
 	}
 
-	private void prentRev(Node nn) {
+	private void prentRev(Node nn)  {
 		if(nn == null) {
 			return ;
 		}

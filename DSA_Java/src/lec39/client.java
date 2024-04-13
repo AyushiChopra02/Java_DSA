@@ -12,6 +12,7 @@ public class client {
     }
 
     Node head;
+	private Node nn;
 
     public client() {
         this.head = null; 
@@ -145,4 +146,18 @@ public void addFirst(int ali) {
 		return curr.data;
 	}
 		return idx;
-}}
+}
+	public void printRev() {
+		prentRev(head);
+	}
+
+	private void prentRev(Node nn) {
+		if(nn == null) {
+			return ;
+		}
+		Node curr = nn ;
+		printRev();
+		System.out.println(curr.data);
+		return ;
+	}
+}

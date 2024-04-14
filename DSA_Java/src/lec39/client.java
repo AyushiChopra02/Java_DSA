@@ -186,4 +186,26 @@ public void addFirst(int ali) {
 		curr.next = null ;
 		return curr;
 	}
+	 
+	public int getMid() {
+		Node fast = head;
+		Node slow = head;
+		while(fast != null && fast.next!= null) {
+			fast = fast.next.next;
+			slow = slow.next;
+		}
+		return slow.data;
+	}
+	public int  lastK(int k) {
+		Node ahead = head;
+		for(int c = 1 ; c <=k ; c++) {
+			ahead = ahead.next;
+		}
+		Node behind = head;
+		while(ahead != null) {
+			ahead = ahead.next;
+			behind = behind.next;
+		}
+		return behind.data;
+	}
 }

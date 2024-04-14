@@ -166,7 +166,24 @@ public void addFirst(int ali) {
 		while(curr != null) {
 			System.out.println(curr .data);
 			prev = curr ;
-			curr = curr.next;
+			 Node after = null;
+			curr = after;
 		}
+		head = prev;
+	}
+	public void RevRec() {
+		RevRec(head);
+		
+	}
+	private Node RevRec(Node nn) {
+		if(nn.next == null) {
+			return nn;
+		}
+		//BP : puri LL rev kr or uski tail de
+		Node curr = nn;
+		Node tail = RevRec(nn.next);
+		tail.next = curr ;
+		curr.next = null ;
+		return curr;
 	}
 }

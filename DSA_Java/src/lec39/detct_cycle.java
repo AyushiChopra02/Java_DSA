@@ -20,7 +20,7 @@ public static boolean main(String[] args) {
 public void breakCycle() {
 	Node head = null;
 	Node fast = head;
-	Node slow = head;
+	Node slow = head ;
 	while(true) {
 		fast = fast.next.next;
 		slow = slow.next;

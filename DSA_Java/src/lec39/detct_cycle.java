@@ -17,7 +17,7 @@ public static boolean main(String[] args) {
 	return false ;
 	
 }
-public void breakCycle() {
+public void breakCycle()  {
 	Node head = null;
 	Node fast = head;
 	Node slow = head ;

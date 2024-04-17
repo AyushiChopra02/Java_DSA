@@ -30,7 +30,7 @@ public void breakCycle() {
 	}
 	Node special = fast;
 	Node c1 = head;
-	while(c1.next != special.next){
+	while(c1.next != special.next) {
 		c1 = c1.next;
 		special = special.next;
 	}

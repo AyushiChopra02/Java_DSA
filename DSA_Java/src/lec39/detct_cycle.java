@@ -34,6 +34,6 @@ public void breakCycle() {
 		c1 = c1.next;
 		special = special.next;
 	}
-	special.next = null;
+	special.next = null ;
 }
 }

@@ -22,7 +22,7 @@ public void breakCycle()  {
 	Node fast = head;
 	Node slow = head ;
 	while(true) {
-		fast = fast.next.next  ;
+		fast = fast.next.next ;
 		slow = slow.next;
 		if(fast == slow) {
 			break;

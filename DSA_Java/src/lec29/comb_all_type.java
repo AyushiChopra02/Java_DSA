@@ -25,7 +25,7 @@ public static void seat(int curr , int toPlace , String path , int total_seats) 
 		return ;
 		
 	}
-	seat(curr , toPlace-1 , path+"q"+curr , total_seats);//include
+	seat(curr , toPlace-1 , path+"q"+curr ,  total_seats);//include
 	seat(curr , toPlace , path +curr , total_seats) ; //exclude
 	
 }

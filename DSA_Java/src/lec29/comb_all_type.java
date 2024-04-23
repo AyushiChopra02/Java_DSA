@@ -21,7 +21,7 @@ public static void seat(int curr , int toPlace , String path , int total_seats) 
 		System.out.println(path) ;
 		return;
 	}
-	if(curr==total_seats)  { //-ve basecase
+	if(curr==total_seats)   { //-ve basecase
 		return ;
 		
 	}

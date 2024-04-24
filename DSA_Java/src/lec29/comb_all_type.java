@@ -8,7 +8,7 @@ public static void main(String[] args) {
 }
 public static void PT(int r,int prev , String path , int n ) {
 	if(r==0) {
-		System.out.println(path);
+		System.out.println(path) ;
 		return;
 	}
 	for(int curr=prev + 1 ; curr<n ; curr++){

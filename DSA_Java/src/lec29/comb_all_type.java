@@ -2,7 +2,7 @@ package lec29;
 
 public class comb_all_type {
 public static void main(String[] args) {
-	int n=4;
+	int n =4;
 	int r = 2;
 	PT(r,-1 , "",n);
 }

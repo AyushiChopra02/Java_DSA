@@ -16,7 +16,7 @@ public static void PT(int r,int prev , String path , int n ) {
 		PT(r-1 , curr,path + "b" + curr , n);
 	}
 }
-public static void seat(int curr , int toPlace , String path , int total_seats) {
+public static void seat(int curr , int toPlace , String path , int total_seats){
 	if(toPlace==0) { //+ve basecase
 		System.out.println(path) ;
 		return;

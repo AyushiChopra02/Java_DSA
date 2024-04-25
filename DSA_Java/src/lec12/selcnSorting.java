@@ -19,7 +19,7 @@ public static void Selection(int arr[]) {
 			}
 		}
 		//swap
-		int temp = arr[last];
+		int temp = arr[last] ;
 		arr[last]= arr[max_id];
 		arr[max_id] =temp;
 	}

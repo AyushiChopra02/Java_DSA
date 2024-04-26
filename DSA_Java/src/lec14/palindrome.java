@@ -7,7 +7,7 @@ public class palindrome {
 	printAllpalinSS2("nnittin");
 }
 	public static boolean isPalindrome(String str) {
-		int s =0;
+		int s =0 ;
 		int e = str.length()-1  ;
 		while(s<e) {
 			//agr string or ending char match na kre to false h

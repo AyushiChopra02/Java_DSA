@@ -9,7 +9,7 @@ public class PlayingWithGoodString {
 	        System.out.println(findLongestGoodString(S));
 	    }
 	    public static int findLongestGoodString(String S) {
-	        int max_length = 0;
+	        int max_length =  0;
 	        int current_length = 0;
 	//hr chr k lie  S string k andr chlga
 	        for (char ch : S.toCharArray()) {

@@ -7,7 +7,7 @@ public class palindrome {
 	printAllpalinSS2("nnittin");
 }
 	public static boolean isPalindrome(String str) {
-		int s =0;
+		int s =0 ;
 		int e = str.length()-1  ;
 		while(s<e) {
 			//agr string or ending char match na kre to false h
@@ -21,7 +21,7 @@ public class palindrome {
 	//saare palindrome print krne k lie
 	public static void printAllpalinSS2(String str) {
 		for(int  c=0 ; c<str.length() ; c++) {
-			grow(str,c,c);			
+			grow(str,c,c) ;			
 			}
 		}
 	public static void grow(String str, int L, int R) {

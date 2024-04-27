@@ -1,7 +1,7 @@
 package lec13;
 
 public class arr2D_2 {
-public static void main(String[] args) {
+public static void main(String[] args)  {
 	int mat[][] = new int[5][3];
 	System.out.println(mat.length);
 	System.out.println(mat[0].length);

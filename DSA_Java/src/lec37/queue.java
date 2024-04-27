@@ -16,7 +16,7 @@ public int size() {
 public boolean isFull() {
 	return size()== arr.length;
 }
-public boolean isEmpty()  {
+public boolean isEmpty(){
 	return size()==0;
 }
 public int peek() {

@@ -19,7 +19,7 @@ public boolean isFull() {
 public boolean isEmpty(){
 	return size()==0;
 }
-public int peek()  {
+public int peek()   {
 	return arr[s];
 }
 public void add(int ali) {

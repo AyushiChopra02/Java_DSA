@@ -23,7 +23,7 @@ public int peek()   {
 	return arr[s];
 }
 public void add(int ali) {
-	int idx =(s+size())% arr.length ;
+	int idx =(s+size())% arr.length  ;
 	arr[idx] = ali;
 	size++;
 }

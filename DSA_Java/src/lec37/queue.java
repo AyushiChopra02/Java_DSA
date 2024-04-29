@@ -14,7 +14,7 @@ public int size() {
 	return size;
 }
 public boolean isFull(){
-	return size()== arr.length ;
+	return size()== arr.length;
 }
 public boolean isEmpty(){
 	return size()==0;

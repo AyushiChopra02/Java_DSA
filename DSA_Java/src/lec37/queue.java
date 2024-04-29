@@ -13,7 +13,7 @@ public queue(int cap) {
 public int size() {
 	return size;
 }
-public boolean isFull() {
+public boolean isFull(){
 	return size()== arr.length ;
 }
 public boolean isEmpty(){

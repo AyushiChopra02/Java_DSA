@@ -13,7 +13,7 @@ public static void main(String[] args) {
 		}
 		System.out.println();
 	}
-	System.out.println("=========");
+	System.out.println("=========") ;
 	mat[0][0] = 1;
 	mat[0][1] = 2;
 	mat [0][2] = 3;

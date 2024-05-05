@@ -18,7 +18,7 @@ public static void main(String[] args) {
 	        
 	        prev.next = null;
 	        ListNode L1 = head;
-	        ListNode L2 = reverse(slow);
+	        ListNode L2 = reverse(slow) ;
 	        merge(L1, L2);
 	    }
 	    //hmne mid k right side vali list ko reverse krdiaa

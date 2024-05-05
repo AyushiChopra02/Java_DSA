@@ -22,7 +22,7 @@ public static void main(String[] args) {
 	        merge(L1, L2);
 	    }
 	    //hmne mid k right side vali list ko reverse krdiaa
-	    private static ListNode reverse(ListNode l2)  {
+	    private static ListNode reverse(ListNode l2){
 	        ListNode prev = null;
 	        while (l2 != null) {
 	            ListNode next = l2.next;

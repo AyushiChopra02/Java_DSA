@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	        
 	        ListNode slow = head;
 	        ListNode fast = head;
-	        ListNode prev = head;
+	        ListNode prev = head ;
 	        //mid elemnt nikalne k lie or mid k dono side vali LL alg krdii
 	        while (fast != null && fast.next != null) {
 	            prev = slow;

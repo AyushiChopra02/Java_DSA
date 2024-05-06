@@ -23,7 +23,7 @@ public class Palindrome_LL {
 	        
 	        // Compare the reversed second half with the first half
 	        while (slow != null) {
-	            if (fast.val != slow.val) {
+	            if (fast.val != slow.val ) {
 	                return false;
 	            }
 	            fast = fast.next;

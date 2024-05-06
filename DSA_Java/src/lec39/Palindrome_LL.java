@@ -14,7 +14,7 @@ public class Palindrome_LL {
 	        
 	        // Move slow pointer to the start of the second half
 	        if (fast != null) {
-	            slow = slow.next;
+	            slow = slow.next ;
 	        }
 	        
 	        // Reverse the second half of the list

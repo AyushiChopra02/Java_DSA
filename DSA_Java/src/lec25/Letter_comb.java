@@ -15,7 +15,7 @@ public static void solve(String buttons , String ans) {
 	String remain = buttons.substring(1) ;//46
 	char ch = buttons.charAt(0); //2
 	String op = options(ch); //abc
-	for(int i=0 ; i<op.length() ; i++) {
+	for(int i=0 ; i<op.length() ; i++)  {
 		solve(remain , ans+op.charAt(i))  ;
 	}
 }

@@ -20,7 +20,7 @@ public static void solve(String buttons , String ans) {
 	}
 }
 public static String options(char ch) {
-	String[] arr = {"abc" , "def" ,  "ghi" , "jkl" , "mno" , "pqrs" , "tuv" , "wxyz"};
+	String[] arr = {"abc" , "def" ,  "ghi" , "jkl" , "mno" , "pqrs " , "tuv" , "wxyz"};
 	return arr[ch -'2']   ;
 }
 }

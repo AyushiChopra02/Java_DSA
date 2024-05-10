@@ -12,7 +12,7 @@ public static void solve(String buttons , String ans) {
 		return ;
 		
 	}
-	String remain = buttons.substring(1) ;//46
+	String remain = buttons.substring(1)  ;//46
 	char ch = buttons.charAt(0); //2
 	String op = options(ch); //abc
 	for(int i=0 ; i<op.length() ; i++)  {

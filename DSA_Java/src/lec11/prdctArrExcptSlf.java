@@ -9,7 +9,7 @@ public static void main(String[] args) {
 		for(int j=0 ; j<i ; j++){
 			left = left*arr[j];
 		}
-		for(int j =  i+1; j <arr.length ; j++ ) {
+		for(int j =  i+1; j  <arr.length ; j++ ) {
 			right = right*arr[j];
 			
 		}

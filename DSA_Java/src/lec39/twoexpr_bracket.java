@@ -52,7 +52,7 @@ public class twoexpr_bracket {
 	 
 	    static boolean areSame(String expr1, String expr2) 
 	    {
-	        int[] v = new int[MAX_CHAR];
+	        int[] v = new int[MAX_CHAR] ;
 	 
 	        
 	        eval(expr1, v, true);

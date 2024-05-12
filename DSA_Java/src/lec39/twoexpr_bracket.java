@@ -46,7 +46,7 @@ public class twoexpr_bracket {
 	                    v[s.charAt(i) - 'a'] += (adjSign(s, i) ? 
 	                                add ? -1 : 1 : add ? 1 : -1);
 	            }
-	            i++;
+	            i++ ;
 	        }
 	    };
 	 

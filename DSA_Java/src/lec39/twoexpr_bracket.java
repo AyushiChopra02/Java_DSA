@@ -33,7 +33,7 @@ public class twoexpr_bracket {
 	                    stk.push(!stk.peek()) ;
 	            }
 	            else if (s.charAt(i) == ')')
-	                stk.pop()  ;
+	                stk.pop() ;
 	 
 	            else
 	            {

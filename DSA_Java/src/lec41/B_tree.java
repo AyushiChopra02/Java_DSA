@@ -15,8 +15,8 @@ private void disp(Node nn) {
 	if(nn == null) {
 		return;
 	}
-	//bigger prblm 10 k
-	System.out.println(nn.data);
+	//bigger prblm 10 k print krdo
+	System.out.println(nn.data) 
 	disp(nn.left);
 	disp(nn.right);
 }

@@ -16,7 +16,7 @@ private void disp(Node nn) {
 		return;
 	}
 	//bigger prblm 10 k print krdo
-	System.out.println(nn.data) 
+	System.out.println(nn.data) ;
 	disp(nn.left);
 	disp(nn.right);
 }

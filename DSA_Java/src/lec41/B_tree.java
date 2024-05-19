@@ -39,4 +39,24 @@ private int size(Node nn) {
 	int R = size(nn.right);
 	return L+R+1;
 }
+public int Ht() {
+	return Ht(root);
+}
+private int Ht(Node nn) {
+	if(nn == null) {
+		return -1;
+	}
+	int L = Ht(nn.left);
+	int R = Ht(nn.right);
+	return Math.max(L,R) + 1;
+}
+public int Diameter() {
+	return Diameter(root);
+}
+private int Diameter(Node nn) {
+	int L = Diameter(nn.left);
+	int R = Diameter(nn.right);
+	int S = 2 + Ht(nn.left) + Ht(nn.right);
+	return Math.max(Math.max(L,R) , S);
+}
 }

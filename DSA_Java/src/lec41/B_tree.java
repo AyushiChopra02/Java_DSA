@@ -59,4 +59,16 @@ private int Diameter(Node nn) {
 	int S = 2 + Ht(nn.left) + Ht(nn.right);
 	return Math.max(Math.max(L,R) , S);
 }
+public boolean isbal() {
+	return isbal(root);
+}
+private boolean isbal(Node nn) {
+	if (nn == null) {
+		return true;
+	}
+	boolean L = isbal(nn.left);
+	boolean R = isbal(nn.right);
+	boolean self = Math.abs(Ht(nn.left) - Ht(nn.right)) <= 1;
+	return self && L && R ;
+}
 }

@@ -84,7 +84,7 @@ private boolean isbal(Node nn) {
 int pre_idx = 0;
 public void Btree(int[] pre) {
 	pre_idx = 0;
-	root = Crpre(pre);
+	root = Crpre(pre) ;
 }
 //create tree using preorder
 private Node Crpre(int[] pre) {

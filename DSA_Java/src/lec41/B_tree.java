@@ -110,8 +110,9 @@ public void lvlPrint() {
 			Q.add(nn.left);
 		}
 		if(nn.right!=null) {
-			Q.add(nn.right);
+			Q.add(nn.right) ;
 		}
 	}
 }
 }
+

@@ -93,7 +93,7 @@ private Node Crpre(int[] pre) {
 		return null;
 	}
 	// TODO Auto-generated method stub
-	Node nn = new Node(pre[pre_idx]) ;
+	Node nn = new Node(pre[pre_idx]);
 	pre_idx ++ ;
 	nn.left = Crpre(pre);
 	nn.right = Crpre(pre); 

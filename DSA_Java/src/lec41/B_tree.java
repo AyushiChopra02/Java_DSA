@@ -101,7 +101,7 @@ private Node Crpre(int[] pre) {
 }
 //Depth first search/Transversal
 public void lvlPrint() {
-	Queue<Node> Q = new LinkedList<>()  ;
+	Queue<Node> Q = new LinkedList<>();
 	Q.add(root);
 	while(!Q.isEmpty()) {
 		Node nn = Q.poll();

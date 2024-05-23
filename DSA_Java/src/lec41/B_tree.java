@@ -114,5 +114,11 @@ public void lvlPrint() {
 		}
 	}
 }
+class pairBST{
+	boolean b = true;
+	int max = Integer.MIN_VALUE;
+	int min = Integer.MAX_VALUE;
+}
+private pairBST is
 }
 

@@ -119,5 +119,21 @@ class pairBST{
 	int max = Integer.MIN_VALUE;
 	int min = Integer.MAX_VALUE;
 }
+private pairBST isBST(Node nn) {
+	if(nn == null) {
+		return new pairBST();
+	}
+	pairBST L = isBST(nn.left);
+	pairBST R = isBST(nn.left);
+	pairBST ans = new pairBST();
+	//isBST
+	boolean self = L.max < nn.data && nn.data <R.min;
+	ans.b = self && L.b && R.b;
+	
+	//min
+	ans.min = Math.min(nn.data, Math.min(L.min, R.min));
+	ans.max = Math.max(nn.data, Math.max(L.max, R.max));
+	return ans;
+}
 }
 

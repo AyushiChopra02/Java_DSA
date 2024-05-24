@@ -41,7 +41,7 @@ private int size(Node nn) {
 	if(nn == null) {
 		return 0;
 	}
-	int L= size(nn.left) ;
+	int L= size(nn.left)  ;
 	int R = size(nn.right);
 	return L+R+1;
 }

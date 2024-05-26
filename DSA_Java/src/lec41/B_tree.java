@@ -42,7 +42,7 @@ private int size(Node nn) {
 		return 0;
 	}
 	int L= size(nn.left) ;
-	int R = size(nn.right);
+	int R = size(nn.right) ;
 	return L+R+1;
 }
 //find height of tree

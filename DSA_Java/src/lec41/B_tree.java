@@ -37,7 +37,7 @@ private void disp(Node nn) {
 public int size()  {
 	return size(root);
 }
-private int size(Node nn) {
+private int size(Node nn)  {
 	if(nn == null) {
 		return 0;
 	}

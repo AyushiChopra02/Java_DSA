@@ -26,7 +26,7 @@ private void disp(Node nn) {
 	disp(nn.left);
 	disp(nn.right);
 }
-	public B_tree(int[] pre, int[] in) {
+	public B_tree(int[] pre,  int[] in) {
 		root = createTree(pre , 0,pre.length-1,in,0,in.length-1);
 }
 	private Node createTree(int[] pre, int i, int j, int[] in, int k, int l)  {

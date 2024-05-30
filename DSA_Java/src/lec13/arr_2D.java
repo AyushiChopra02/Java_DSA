@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	System.out.println(mat);
 	System.out.println(mat.length);
 	
-	for(int[] row : mat)  {
+	for(int[] row : mat)   {
 		for(int ali :row) {
 			System.out.println(ali + " ");
 			

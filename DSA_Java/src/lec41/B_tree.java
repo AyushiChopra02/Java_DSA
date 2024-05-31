@@ -31,7 +31,7 @@ private void disp(Node nn) {
 }
 	private Node createTree(int[] pre, int i, int j, int[] in, int k, int l)  {
 		// TODO Auto-generated method stub
-		return null  ;
+		return null   ;
 	}
 //find size of tree
 public int size()  {

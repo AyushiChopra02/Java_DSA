@@ -34,7 +34,7 @@ private void disp(Node nn) {
 		return null  ;
 	}
 //find size of tree
-public int size() {
+public int size()  {
 	return size(root);
 }
 private int size(Node nn)  {

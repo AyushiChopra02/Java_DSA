@@ -8,7 +8,7 @@ public static void main(String[] args)  {
 	int cnt=0;
 	for(int r=0; r< mat.length; r++) {
 		for(int c = 0; c<mat[0].length ; c++) {
-	mat[r][c]= cnt;
+	mat[r][c]= cnt ;
 	cnt ++  ;
 		}
 }

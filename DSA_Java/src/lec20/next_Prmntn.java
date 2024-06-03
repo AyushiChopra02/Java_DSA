@@ -7,9 +7,9 @@ char [] arr = (num + "").toCharArray();
 int f= -1;
 char prev = '0';
 for(int idx = arr.length - 1 ; idx >=0 ; idx--) {
-	char curr = arr[idx];
+	char curr = arr[idx] ;
 	if(curr < prev) {
-		f = idx;
+		f = idx ;
 		break;}
 	prev = curr ;
 }

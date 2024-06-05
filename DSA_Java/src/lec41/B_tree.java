@@ -39,7 +39,7 @@ public int size()  {
 }
 private int size(Node nn) {
 	if(nn == null) {
-		return 0;
+		return 0 ;
 	}
 	int L= size(nn.left) ;
 	int R = size(nn.right);

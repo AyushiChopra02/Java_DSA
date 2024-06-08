@@ -16,7 +16,7 @@ public class duplcte_no {
             // Fir hum count array mein se check karte hain ki koi number jiski frequency 1 se zyada hai, yani ki duplicate hai. Us number ko return kar dete hain.
             for (int i = 0; i < n; i++) {
                 if (count[i] > 1) {
-                    return i + 1;  // Return the number with frequency greater than 1
+                    return i + 1 ;  // Return the number with frequency greater than 1
                 }
             }
 

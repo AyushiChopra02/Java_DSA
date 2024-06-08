@@ -119,7 +119,7 @@ class pairBST{
 	int max = Integer.MIN_VALUE;
 	int min = Integer.MAX_VALUE;
 }
-private pairBST isBST(Node nn) {
+private pairBST isBST(Node nn)  {
 	if(nn == null) {
 		return new pairBST();
 	}

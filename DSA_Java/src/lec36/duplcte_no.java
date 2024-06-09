@@ -41,7 +41,7 @@ public class duplcte_no {
         }
 
         // Call the findDuplicate method
-        int result = solution.findDuplicate(nums);
+        int result =  solution.findDuplicate(nums);
 
         // Output the result
         if (result != -1) {

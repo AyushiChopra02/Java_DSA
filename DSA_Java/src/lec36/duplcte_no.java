@@ -29,7 +29,7 @@ public class duplcte_no {
         Solution solution = new Solution();
 
         // Input the size of the array
-        System.out.print("Enter the size of the array: ");
+        System.out.print("Enter the size of the  array: ");
         int size = scanner.nextInt();
 
         int[] nums = new int[size];

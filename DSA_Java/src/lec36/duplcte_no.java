@@ -37,7 +37,7 @@ public class duplcte_no {
         // Input the elements of the array
         System.out.println("Enter " + size + " elements:");
         for (int i = 0; i < size; i++) {
-            nums[i] = scanner.nextInt() ;
+            nums[i] = scanner.nextInt();
         }
 
         // Call the findDuplicate method

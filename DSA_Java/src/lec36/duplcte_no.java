@@ -45,7 +45,7 @@ public class duplcte_no {
 
         // Output the result
         if (result != -1) {
-            System.out.println("Duplicate number with frequency > 1: " + result);
+            System.out.println("Duplicate number with frequency > 1: " + result) ;
         } else {
             System.out.println("No duplicate found.");
         }

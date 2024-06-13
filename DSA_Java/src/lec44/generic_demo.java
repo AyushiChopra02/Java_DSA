@@ -9,4 +9,14 @@ public static void main(String[] args) {
 	arr[3] = new student(11, "d");
 	arr[4] = new student(1, "ds");
 }
+//public static void print(Object[]arr) {
+	//for(Object obj : arr) {
+		//System.out.println(obj);
+	//}
+//}
+public static <tui> void print(tui[] arr) {
+	for(tui ali : arr) {
+		System.out.println(ali);
+	}
+}
 }

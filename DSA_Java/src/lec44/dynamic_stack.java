@@ -1,4 +1,4 @@
-package lec44;
+package lec44 ;
 
 public interface dynamic_stack {
 	public void grow()  ;

@@ -10,6 +10,7 @@ public static void main(String[] args) {
 	
 	PriorityQueue<Integer> PQ1 = new PriorityQueue<>(Collections.reverseOrder());
 	//priority queue jo max  value deti h usay max heap bolte h
+	
 	PQ1.add(10);
 	PQ1.add(4);
 	PQ1.add(6);

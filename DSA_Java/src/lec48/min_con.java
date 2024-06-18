@@ -28,7 +28,7 @@ public class min_con {
         		if(i>last_char_idx) {
         			last_char_idx =i;
         			flag = true;
-        			break;
+        			break; 
         		}
         	}
         }

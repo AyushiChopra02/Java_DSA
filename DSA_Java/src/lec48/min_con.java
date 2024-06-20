@@ -27,7 +27,7 @@ public class min_con {
         	for(int i:AL) {
         		if(i>last_char_idx) {
         			last_char_idx =i ;
-        			flag = true;
+        			flag = true ;
         			break;   
         		}
         	}

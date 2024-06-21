@@ -19,7 +19,7 @@ public class min_con {
         }
         int last_char_idx = -1;
         int ans = 1;
-        System.out.println(HM);
+        System.out.println(HM);  
         for(int idx =0; idx <t.length(); idx++) {
         	char ch = t.charAt(idx);
         	ArrayList<Integer> AL = HM.get(ch);

@@ -15,7 +15,7 @@ public class min_con {
         for (int idx = 0; idx < s.length(); idx++) {
             ArrayList<Integer> AL = HM.getOrDefault(s.charAt(idx), new ArrayList<>());
             AL.add(idx);
-            HM.put(s.charAt(idx), AL);
+            HM.put(s.charAt(idx), AL) ;
         }
         int last_char_idx = -1;
         int ans = 1;

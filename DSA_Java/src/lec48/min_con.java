@@ -25,7 +25,7 @@ public class min_con {
         	ArrayList<Integer> AL = HM.get(ch);
         	boolean flag = false;
         	for(int i:AL) {
-        		if(i>last_char_idx) {
+        		if(i>last_char_idx)  {
         			last_char_idx =i ;
         			flag = true ;
         			break;   

@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	for(int ali : arr) {
 		Set.add(ali);
 	}
-	for(int ali : arr) {
+	for(int ali : arr)  {
 		Set.add(ali);
 		if(!Set.contains(ali-1))  {
 			//ali is the strting point of chain

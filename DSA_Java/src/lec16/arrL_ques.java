@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	System.out.println(Intersection(arr1 , arr2));
 }
 public static ArrayList<Integer> Intersection(int[]arr1 , int[]arr2){
-	int idx1 =0;
+	int idx1 =0 ;
 	int idx2=0;
 	ArrayList<Integer> AL = new ArrayList<>();
 	while(idx1 < arr1.length && idx2 < arr2.length) {

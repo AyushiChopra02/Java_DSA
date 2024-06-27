@@ -15,7 +15,7 @@ public static void main(String[] args) {
 		if(!Set.contains(ali-1)){
 			//ali is the strting point of chain
 			int nn = ali;
-			while(Set.contains(nn))  {
+			while(Set.contains(nn)) {
 				System.out.println()  ;
 				nn++;
 			}

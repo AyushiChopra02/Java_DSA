@@ -20,6 +20,7 @@ public static void main(String[] args) {
 				nn++;
 				
 				 
+				
 			}
 			System.out.println();
 		}

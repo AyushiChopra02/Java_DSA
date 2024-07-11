@@ -16,7 +16,7 @@ public static void main(String[] args) {
 			//ali is the strting point of chain
 			int nn = ali;
 			while(Set.contains(nn)) {
-				System.out.println()   ;
+				System.out.println()    ;
 				nn++;
 				
 			   

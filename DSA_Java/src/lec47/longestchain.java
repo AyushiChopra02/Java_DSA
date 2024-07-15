@@ -18,6 +18,7 @@ public static void main(String[] args) {
 			while(Set.contains(nn)) {
 				System.out.println()    ;
 				nn++;
+				 
 				
 				
 			}

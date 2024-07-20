@@ -3,7 +3,7 @@ package lec49;
 public class dp_bsc {
 	public static void main(String[] args) {
 		int n = 1000;
-		System.out.println(FiboTD(n,new Integer[n+1]);
+		System.out.println(FiboTD(n,new Integer[n+1]));
 	}
 	//top down apprch , memoziation
 	

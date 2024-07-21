@@ -21,6 +21,7 @@ public class lec_dp {
             return 1;
         }
         
+        
         if (A < 0 || idx == coins.length) {
             return 0;
         }

@@ -19,6 +19,7 @@ public class lec_dp {
     public static int coinChange(int A, int idx, int[] coins, Integer[][] dp) {
         if (A == 0) {
             return 1;
+            
         }
         
         

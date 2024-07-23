@@ -22,7 +22,7 @@ public class lec_dp {
             
             
         }
-        
+
         
         
         if (A < 0 || idx == coins.length) {

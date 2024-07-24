@@ -22,8 +22,6 @@ public class rev_dp {
         return dp[n];
     }
 
-    
-    
     // Bottom-up approach
     public static int BU(int N) {
         if (N <= 1) {

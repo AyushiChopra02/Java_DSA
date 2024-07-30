@@ -21,6 +21,7 @@ public class Graph {
     }
     public void addEdge(int V1, int V2, int Wt) {
         signIn(V1);
+        
         signIn(V2);
         HashMap<Integer, Integer> N_V1 = G.get(V1);
         N_V1.put(V2, Wt);

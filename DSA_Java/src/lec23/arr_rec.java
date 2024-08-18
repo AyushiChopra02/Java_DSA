@@ -14,6 +14,6 @@ public static void Print(int s , int arr[])  {
 	System.out.println(arr[s]);
 	Print(s+1 , arr);
 	
-}
+} 
 }
  

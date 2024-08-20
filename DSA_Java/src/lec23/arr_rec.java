@@ -9,7 +9,7 @@ public static void Print(int s , int arr[])  {
 	if(s == arr.length) {
 		return ;
 	}
-	 
+	  
 	//BP : Print(0 , arr)
 	//SP : Print(1,arr)
 	System.out.println(arr[s]);

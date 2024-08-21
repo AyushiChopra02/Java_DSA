@@ -10,7 +10,7 @@ public static void Print(int s , int arr[])  {
 		return ;
 	}
 	  
-	  
+	   
 	//BP : Print(0 , arr)
 	//SP : Print(1,arr)
 	System.out.println(arr[s]);

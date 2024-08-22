@@ -11,7 +11,7 @@ public static void Print(int s , int arr[])  {
 	}
 	  
 	   
-	//BP : Print(0 , arr)
+	//BP : Print(0 , arr)  
 	//SP : Print(1,arr)
 	System.out.println(arr[s]);
 	Print(s+1 , arr);

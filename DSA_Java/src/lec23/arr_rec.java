@@ -15,8 +15,4 @@ public static void Print(int s , int arr[])  {
 	Print(s+1 , arr);
 	
 } 
-}
- 
-
-
-    
+}  

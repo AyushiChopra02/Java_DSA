@@ -49,8 +49,8 @@ public class Solution {
                     queue.offer(new int[]{newRow, newCol});
                 }
             }
-        }
-          
+        }   
+           
         // Find the maximum distance
         int maxDist = 0;
         for (int i = 0; i < n; i++) {

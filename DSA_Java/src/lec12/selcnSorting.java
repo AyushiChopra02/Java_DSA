@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	System.out.println(Arrays.toString(arr));
 	Selection(arr);
 	System.out.println(Arrays.toString(arr));
-}
+} 
 public static void Selection(int arr[]) {
 	for(int last = arr.length - 1; last >=1 ; last--) {
 		int max_id =0;

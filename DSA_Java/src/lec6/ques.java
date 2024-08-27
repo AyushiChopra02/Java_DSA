@@ -1,0 +1,66 @@
+package lec6;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Solution {
+    public int maxDistance(int[][] grid) {
+        int n = grid.length;
+        int[][] distance = new int[n][n];
+        Queue<int[]> queue = new LinkedList<>();
+        
+        boolean hasWater = false, hasLand = false;
+        
+        // Initialize the queue with all land cells and mark water cells as unvisited
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] == 1) {
+                    queue.offer(new int[]{i, j});
+                    distance[i][j] = 0;
+                    hasLand = true;
+                } else {
+                    distance[i][j] = -1; // -1 indicates unvisited water cell
+                    hasWater = true;
+                }
+            }
+        }
+        
+        // If there are no land or no water cells, return -1
+        if (!hasLand || !hasWater) {
+            return -1;
+        }
+        
+        // Directions for moving up, down, left, right
+        int[] dRow = {-1, 1, 0, 0};
+        int[] dCol = {0, 0, -1, 1};
+        
+        // BFS to calculate shortest distance from any land cell to all water cells
+        while (!queue.isEmpty()) {
+            int[] cell = queue.poll();
+            int row = cell[0];
+            int col = cell[1];
+            
+            for (int i = 0; i < 4; i++) {
+                int newRow = row + dRow[i];
+                int newCol = col + dCol[i];
+                
+                if (newRow >= 0 && newRow < n && newCol >= 0 && newCol < n && distance[newRow][newCol] == -1) {
+                    distance[newRow][newCol] = distance[row][col] + 1;
+                    queue.offer(new int[]{newRow, newCol});
+                }
+            }
+        }
+        
+        // Find the maximum distance
+        int maxDist = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] == 0) {
+                    maxDist = Math.max(maxDist, distance[i][j]);
+                }
+            }
+        }
+        
+        return maxDist;
+    }
+}

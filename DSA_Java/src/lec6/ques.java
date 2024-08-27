@@ -59,7 +59,7 @@ public class Solution {
                     maxDist = Math.max(maxDist, distance[i][j]);
                 }
             }
-        }
+        } 
         
         return maxDist;
     }

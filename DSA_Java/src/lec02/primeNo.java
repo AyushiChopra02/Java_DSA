@@ -13,7 +13,8 @@ public class primeNo {
 			num_fact++;
 		}
 		System.out.println(divisor + "-" + remnder);
-		divisor++;
+		
+		divisor++ ;
 	}
 if(num_fact==2) {
 	System.out.println("prime");

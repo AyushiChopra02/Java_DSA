@@ -33,7 +33,7 @@ public class Solution {
         // Directions for moving up, down, left, right
         int[] dRow = {-1, 1, 0, 0};
         int[] dCol = {0, 0, -1, 1};
-           
+            
         // BFS to calculate shortest distance from any land cell to all water cells
         while (!queue.isEmpty()) {
             int[] cell = queue.poll();

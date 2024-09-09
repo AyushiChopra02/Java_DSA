@@ -27,7 +27,7 @@ public class Solution {
         
                if (!hasLand || !hasWater) {
             return -1;
-        }
+        } 
         
                int[] dRow = {-1, 1, 0, 0};
         int[] dCol = {0, 0, -1, 1};

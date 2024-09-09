@@ -36,7 +36,7 @@ public class Solution {
             int[] cell = queue.poll();
             int row = cell[0];
             int col = cell[1];
-            
+             
             for (int i = 0; i < 4; i++) {
                 int newRow = row + dRow[i];
                 int newCol = col + dCol[i];

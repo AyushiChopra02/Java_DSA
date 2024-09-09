@@ -11,7 +11,7 @@ public class Solution {
         
         boolean hasWater = false, hasLand = false;
         
-        // Initialize the queue with all land cells and mark water cells as unvisited
+       
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 1) {
@@ -19,28 +19,24 @@ public class Solution {
                     distance[i][j] = 0;
                     hasLand = true;
                 } else {
-                    distance[i][j] = -1; // -1 indicates unvisited water cell
+                    distance[i][j] = -1;
                     hasWater = true;
                 }
             }
         }
         
-        // If there are no land or no water cells, return -1
-        if (!hasLand || !hasWater) {
+               if (!hasLand || !hasWater) {
             return -1;
         }
-           
-        // Directions for moving up, down, left, right
-        int[] dRow = {-1, 1, 0, 0};
+        
+               int[] dRow = {-1, 1, 0, 0};
         int[] dCol = {0, 0, -1, 1};
-                      
-         
-        // BFS to calculate shortest distance from any land cell to all water cells
-        while (!queue.isEmpty()) {
+        
+                while (!queue.isEmpty()) {
             int[] cell = queue.poll();
             int row = cell[0];
             int col = cell[1];
-              
+            
             for (int i = 0; i < 4; i++) {
                 int newRow = row + dRow[i];
                 int newCol = col + dCol[i];
@@ -50,17 +46,17 @@ public class Solution {
                     queue.offer(new int[]{newRow, newCol});
                 }
             }
-        }            
-                     
-        // Find the maximum distance
-        int maxDist = 0;
+        }
+        
+        
+        int maxDist = -1; // Initialize to -1 in case all cells are land cells or no water cells
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 0) {
+                if (grid[i][j] == 0) { 
                     maxDist = Math.max(maxDist, distance[i][j]);
                 }
             }
-        } 
+        }   
         
         return maxDist;
     }

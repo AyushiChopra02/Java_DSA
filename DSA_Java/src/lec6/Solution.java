@@ -46,7 +46,7 @@ public class Solution {
                     queue.offer(new int[]{newRow, newCol});
                 }
             }
-        }
+        }  
         
         
         int maxDist = -1; // Initialize to -1 in case all cells are land cells or no water cells

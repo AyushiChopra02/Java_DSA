@@ -48,7 +48,7 @@ public class Solution {
             }
         }  
         
-        
+           
         int maxDist = -1; // Initialize to -1 in case all cells are land cells or no water cells
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {

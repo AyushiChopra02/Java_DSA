@@ -46,7 +46,7 @@ public class Solution {
                     queue.offer(new int[]{newRow, newCol});
                 }
             }
-        }  
+        }   
             
            
         int maxDist = -1;

@@ -17,7 +17,7 @@ public class HollowRhombusPttrn {
 				//BP: full string
 				//SP: Small string
 			  
-				
+				    
 				if(input.charAt(0)==input.charAt(1)) {
 					return RemoveDuplet(input.substring(1));
 				

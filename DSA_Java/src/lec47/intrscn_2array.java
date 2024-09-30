@@ -20,7 +20,7 @@ public class intrscn_2array {
                 HM.put(ali, HM.get(ali) - 1); 
             }
         }
-    }
+    }  
 
     public static void main(String[] args) {
         int[] arr1 = {15, 23, 4, 3, 2};

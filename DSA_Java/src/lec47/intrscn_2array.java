@@ -23,6 +23,8 @@ public class intrscn_2array {
     }  
     
 
+    
+    
     public static void main(String[] args) {
         int[] arr1 = {15, 23, 4, 3, 2};
         int[] arr2 = {4, 3, 2, 1};

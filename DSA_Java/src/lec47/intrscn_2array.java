@@ -12,7 +12,7 @@ public class intrscn_2array {
             int prev = HM.getOrDefault(ali, 0);
             HM.put(ali, prev + 1);
         }
-        
+          
        
         for (int ali : arr1) {
             if (HM.containsKey(ali) && HM.get(ali) > 0) {

@@ -7,7 +7,7 @@ public class intrscn_2array {
     public static void Intersecn(int[] arr1, int[] arr2) {
         HashMap<Integer, Integer> HM = new HashMap<>();
         
-       
+         
         for (int ali : arr2) {
             int prev = HM.getOrDefault(ali, 0);
             HM.put(ali, prev + 1);

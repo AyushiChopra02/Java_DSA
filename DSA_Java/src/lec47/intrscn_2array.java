@@ -19,7 +19,7 @@ public class intrscn_2array {
                 System.out.println(ali);
                 HM.put(ali, HM.get(ali) - 1); 
             }
-        }
+        }  
     }  
     
 
